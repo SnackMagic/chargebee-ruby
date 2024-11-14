@@ -4,7 +4,7 @@ PATH
     chargebee (2.46.0)
       cgi (>= 0.1.0, < 1.0.0)
       json_pure (~> 2.1)
-      rest-client (>= 1.8, <= 2.0.2)
+      rest-client (<= 2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -42,6 +42,7 @@ GEM
     unf_ext (0.0.8.2)
 
 PLATFORMS
+  -darwin-21
   arm64-darwin-21
   x86_64-darwin-20
   x86_64-linux
@@ -52,4 +53,4 @@ DEPENDENCIES
   rspec (~> 3.0.0)
 
 BUNDLED WITH
-   2.3.17
+   2.3.22
